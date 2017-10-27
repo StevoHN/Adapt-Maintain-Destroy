@@ -1,0 +1,40 @@
+{
+	"class_color": {
+		"1":"#C79C6E",
+		"2":"#F58CBA",
+		"3":"#ABD473",
+		"4":"#FFF569",
+		"5":"#FFFFFF",
+		"6":"#C41F3B",
+		"7":"#0070DE",
+		"8":"#69CCF0",
+		"9":"#9482C9",
+		"10":"#00FF96",
+		"11":"#FF7D0A",
+		"12":"#A330C9"
+	},
+	"classes": {
+		"1":"Warrior",
+		"2":"Paladin",
+		"3":"Hunter",
+		"4":"Rogue",
+		"5":"Priest",
+		"6":"Death-knight",
+		"7":"Shaman",
+		"8":"Mage",
+		"9":"Warlock",
+		"10":"Monk",
+		"11":"Druid",
+		"12":"Demon-hunter"
+	},
+	"ranks": {
+		"0":"guild_master",
+		"1":"raid_leader",
+		"2":"core_raiders",
+		"3":"raiders",
+		"4":"trial_raiders",
+		"5":"social",
+		"6":"social",
+		"7":"social"
+	}
+}
