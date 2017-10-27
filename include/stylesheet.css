@@ -1,0 +1,153 @@
+body {
+	font-family: Raleway;
+	margin:0px;
+	background-color:#606060;
+}
+
+ul {
+	/* list-style:none; */
+	/* padding:0; */
+	padding-top:5px;
+	padding-bottom:15px;
+}
+
+li {
+	padding-top:3px;
+}
+
+a {
+	text-decoration: none;
+	color:inherit;
+	margin:0px 2%;
+}
+
+#welcome {
+	color:red;
+	text-align:center;
+	/* font-size: 100px; */
+	top:50%;
+	left:50%;
+	position:absolute;
+    transform: translate(-50%, -50%);
+	padding:100px 0px;
+	width:100%;
+}
+
+#ruleBox {
+	text-align:center;
+	width:50%;
+	background-color: #c7c8c9;
+	border-radius:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+
+h2 {
+	padding:15px;
+	margin:0;
+}
+
+.header {
+	background-color:gray;
+	color:white;
+	text-align:center;
+	padding: 20px 0px;
+}
+
+.navbar {
+	background-color:#a0a0a0;
+	padding:0px 10px;
+	margin: auto 0px;
+	text-align: center;
+	height:19px;
+}
+
+.navbar div{
+	padding:0px 2% 0px 2%;
+	background-color:gray;
+	height:100%;
+	display:inline;
+	transition:0.2s;
+	border-left:solid 3px #b5b5b5;
+}
+
+.navbar div:hover {
+	background-color:#a0a0a0;
+}
+
+.container {
+	/* background-color:#b5b5b5; */
+	background-color:white;
+	/* height:100%; */
+	position:relative;
+	padding-bottom:25px;
+	overflow:auto;
+}
+
+.slideshow {
+	width: 90%;
+	height: 40vh;
+	line-height:40vh;
+	background-color: #c7c8c9;
+	margin:0px auto;
+	border-bottom: 3px solid gray;
+	text-align:center;
+}
+
+.infoBoxes {
+	height:25%;
+	width: 90%;
+	/* background-color:white; */
+	margin: 20px auto 0px auto;
+}
+
+.infoBox {
+	width: 49%;
+	height: 100%;
+	text-align:center;
+	background-color: #c7c8c9;
+	border-bottom: 3px solid gray;
+	display: inline-block;
+	position:relative;
+	margin-top:10px;
+}
+
+.raidBox {
+	background-color:#898989;
+	width:95%;
+	height:35px;
+	margin:2% auto;
+	transition:0.65s;
+	border-radius:5px;
+	border:2px solid #515151;
+}
+
+.raidBox:hover {
+	height:150px;
+	background-color:gray;
+}
+
+#news {
+	margin: 20px auto 0px auto;
+	background-color: #c7c8c9;
+	border-bottom: 3px solid gray;
+	width:90%;
+}
+
+.footer {
+	background-color:#606060;
+	bottom:0;
+	/* position:fixed; */
+	height:40px;
+	line-height:40px;
+	width:100%;
+	color:white;
+	text-align:center;
+	
+	padding: 5px 0px;
+}
+
+.centerText {
+	line-height:100%;
+}

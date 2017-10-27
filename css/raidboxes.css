@@ -1,0 +1,119 @@
+.raidBox {
+	background-color:black;
+	width:95%;
+	height:35px;
+	margin:2% auto;
+	line-height:35px;
+	transition:0.85s height;
+	/* transition:0.65s height; */
+	border-radius:5px;
+	color:white;
+	z-index:2;
+	position:relative;
+	max-height:100px;
+}
+
+.raidBox:hover {
+	height:165px;
+	/* background-color:gray; */
+	/* opacity:0; */
+}
+
+.raidBox .boss_icon {
+	visibility:hidden;
+	opacity:0;
+	transition: margin 0.65s,opacity 0.65s,height 0.2s;
+	margin-top:-50px;
+	height:0px;
+	width:0px;
+	/* position:absolute; */
+}
+
+.raidBox:hover .boss_icon {
+	visibility:visible;
+	opacity:1;
+	transition: margin 0.5s,opacity 0.65s;
+	/* transition: margin 0.65s,opacity 0.65s; */
+	margin-top:5px;
+	height:50px;
+	width:50px;
+}
+
+.raid_bosses {
+	height:0px;
+}
+
+.raidtop {
+	height:38px;
+	width:100%;
+	border-radius: 0px;
+	margin-top:-3px;
+	z-index:2;
+	position:relative;
+	border-radius:5px;
+	background-repeat:no-repeat;
+}
+
+.boss_icon {
+	margin-left:5px;
+	margin-right:5px;
+	position:relative;
+	background-image: url(../images/raid_images/boss_icons/placeholder.png);
+	background-color:#244963;
+	height:50px;
+	width:50px;
+	display: inline-block;
+}
+
+.boss_tooltip {
+	width:100%;
+	height:100%;
+	position:relative;
+	z-index:100;	
+}
+
+.area {
+	display:inline-block;
+	width:40%;
+}
+
+#raid_en {
+	background-image: url(../images/raid_images/banners/EN3.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	/* border:2px solid #7c0000; */
+}
+
+#raidtop_en {
+	background-image: url(../images/raid_images/banners/EN3_top.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+}
+
+#raid_tov {
+	background-image: url(../images/raid_images/banners/TOV3.png);
+	background-repeat:no-repeat;
+	 background-position:left top;
+	/* border:2px solid #00667c; */
+}
+
+#raidtop_tov {
+	background-image: url(../images/raid_images/banners/TOV3_top.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#raid_nh {
+	background-image: url(../images/raid_images/banners/NH3.png);
+	background-repeat:no-repeat;
+	/* border:2px solid #16007c; */
+}
+
+#raidtop_nh {
+	background-image: url(../images/raid_images/banners/NH3_top.png);
+}
+
+
+
+
+
